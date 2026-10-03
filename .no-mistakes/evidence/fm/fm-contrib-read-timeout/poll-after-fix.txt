@@ -1,0 +1,99 @@
+################ AFTER THE FIX  (target a9bcf7c) ################
+
+=== /Users/sgwoods/.no-mistakes/worktrees/5b8bcd03a82a/01M40Y9JRWRZ22MRPS0EMTPNJ0/bin  fault=slow ===
+--- timeout mechanism: perl
+--- poll exit status: 0
+--- supervisor-visible poll output: (silent)
+--- durable wake queue: (empty)
+--- delivery record checked_at/error: {"checked_at":"2026-09-15T08:00:00Z","error":null}
+--- delivery record: byte-identical to the prior record (untouched)
+
+=== /Users/sgwoods/.no-mistakes/worktrees/5b8bcd03a82a/01M40Y9JRWRZ22MRPS0EMTPNJ0/bin  fault=sigkill ===
+--- timeout mechanism: perl
+--- poll exit status: 0
+--- supervisor-visible poll output: (silent)
+--- durable wake queue: (empty)
+--- delivery record checked_at/error: {"checked_at":"2026-09-15T08:00:00Z","error":null}
+--- delivery record: byte-identical to the prior record (untouched)
+
+=== /Users/sgwoods/.no-mistakes/worktrees/5b8bcd03a82a/01M40Y9JRWRZ22MRPS0EMTPNJ0/bin  fault=sigterm ===
+--- timeout mechanism: perl
+--- poll exit status: 0
+--- supervisor-visible poll output: (silent)
+--- durable wake queue: (empty)
+--- delivery record checked_at/error: {"checked_at":"2026-09-15T08:00:00Z","error":null}
+--- delivery record: byte-identical to the prior record (untouched)
+
+=== /Users/sgwoods/.no-mistakes/worktrees/5b8bcd03a82a/01M40Y9JRWRZ22MRPS0EMTPNJ0/bin  fault=sighup ===
+--- timeout mechanism: perl
+--- poll exit status: 0
+--- supervisor-visible poll output: (silent)
+--- durable wake queue: (empty)
+--- delivery record checked_at/error: {"checked_at":"2026-09-15T08:00:00Z","error":null}
+--- delivery record: byte-identical to the prior record (untouched)
+
+=== /Users/sgwoods/.no-mistakes/worktrees/5b8bcd03a82a/01M40Y9JRWRZ22MRPS0EMTPNJ0/bin  fault=segv ===
+--- timeout mechanism: perl
+--- poll exit status: 0
+--- supervisor-visible poll output: contributions: observation unavailable for https://github.com/o/r/pull/8
+--- durable wake queue: (empty)
+--- delivery record checked_at/error: {"checked_at":"2026-09-16T08:00:00Z","error":"forge observation unavailable or changed during read"}
+--- delivery record: rewritten by this poll
+
+=== /Users/sgwoods/.no-mistakes/worktrees/5b8bcd03a82a/01M40Y9JRWRZ22MRPS0EMTPNJ0/bin  fault=down ===
+--- timeout mechanism: perl
+--- poll exit status: 0
+--- supervisor-visible poll output: contributions: observation unavailable for https://github.com/o/r/pull/8
+--- durable wake queue: (empty)
+--- delivery record checked_at/error: {"checked_at":"2026-09-16T08:00:00Z","error":"forge observation unavailable or changed during read"}
+--- delivery record: rewritten by this poll
+
+=== /Users/sgwoods/.no-mistakes/worktrees/5b8bcd03a82a/01M40Y9JRWRZ22MRPS0EMTPNJ0/bin  fault=none  extra=https://gitlab.com/o/r/-/merge_requests/2 ===
+--- timeout mechanism: perl
+--- poll exit status: 0
+--- supervisor-visible poll output: (silent)
+--- durable wake queue: (empty)
+--- delivery record checked_at/error: {"checked_at":"2026-09-16T08:00:00Z","error":null}
+--- delivery record: rewritten by this poll
+--- unsupported-forge record: none written
+--- unsupported forge read? 0
+0
+
+=== /Users/sgwoods/.no-mistakes/worktrees/5b8bcd03a82a/01M40Y9JRWRZ22MRPS0EMTPNJ0/bin  fault=headchange ===
+--- timeout mechanism: perl
+--- poll exit status: 0
+--- supervisor-visible poll output: contributions: observation unavailable for https://github.com/o/r/pull/8
+--- durable wake queue: (empty)
+--- delivery record checked_at/error: {"checked_at":"2026-09-16T08:00:00Z","error":"forge observation unavailable or changed during read"}
+--- delivery record: rewritten by this poll
+
+=== /Users/sgwoods/.no-mistakes/worktrees/5b8bcd03a82a/01M40Y9JRWRZ22MRPS0EMTPNJ0/bin  fault=malformed ===
+--- timeout mechanism: perl
+--- poll exit status: 0
+--- supervisor-visible poll output: contributions: observation unavailable for https://github.com/o/r/pull/8
+--- durable wake queue: (empty)
+--- delivery record checked_at/error: {"checked_at":"2026-09-16T08:00:00Z","error":"forge observation unavailable or changed during read"}
+--- delivery record: rewritten by this poll
+
+=== /Users/sgwoods/.no-mistakes/worktrees/5b8bcd03a82a/01M40Y9JRWRZ22MRPS0EMTPNJ0/bin  fault=down  extra=https://gitlab.com/o/r/-/merge_requests/2 ===
+--- timeout mechanism: perl
+--- poll exit status: 0
+--- supervisor-visible poll output: contributions: observation unavailable for https://github.com/o/r/pull/8
+--- durable wake queue: (empty)
+--- delivery record checked_at/error: {"checked_at":"2026-09-16T08:00:00Z","error":"forge observation unavailable or changed during read"}
+--- delivery record: rewritten by this poll
+--- unsupported-forge record: none written
+--- unsupported forge read? 0
+0
+
+=== /Users/sgwoods/.no-mistakes/worktrees/5b8bcd03a82a/01M40Y9JRWRZ22MRPS0EMTPNJ0/bin  fault=sigkill  extra=https://gitlab.com/o/r/-/merge_requests/2 ===
+--- timeout mechanism: perl
+--- poll exit status: 0
+--- supervisor-visible poll output: (silent)
+--- durable wake queue: (empty)
+--- delivery record checked_at/error: {"checked_at":"2026-09-15T08:00:00Z","error":null}
+--- delivery record: byte-identical to the prior record (untouched)
+--- unsupported-forge record: none written
+--- unsupported forge read? 0
+0
+

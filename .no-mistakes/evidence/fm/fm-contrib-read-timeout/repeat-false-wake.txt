@@ -1,0 +1,24 @@
+##### the reported symptom: repeated false wakes on one healthy PR #####
+
+~~~~ BEFORE THE FIX (base 1f3e769) ~~~~
+=== /var/folders/z8/hqkwn1q543zgs63rhbqlpsbr0000gn/T//fm-base.2nVcK8/bin ===
+poll 1 (read SIGKILLed): contributions: observation unavailable for https://github.com/o/r/pull/8
+poll 2 (read answered normally): silent
+poll 3 (read SIGKILLed): contributions: observation unavailable for https://github.com/o/r/pull/8
+poll 4 (read answered normally): silent
+poll 5 (read SIGKILLed): contributions: observation unavailable for https://github.com/o/r/pull/8
+poll 6 (read SIGKILLed): silent
+--- false supervision wakes raised on the open, mergeable, unchanged PR: 3
+--- final record state: {"error":"forge observation unavailable or changed during read","state":"open","mergeable":"mergeable"}
+
+~~~~ AFTER THE FIX (target a9bcf7c) ~~~~
+=== /Users/sgwoods/.no-mistakes/worktrees/5b8bcd03a82a/01M40Y9JRWRZ22MRPS0EMTPNJ0/bin ===
+poll 1 (read SIGKILLed): silent
+poll 2 (read answered normally): silent
+poll 3 (read SIGKILLed): silent
+poll 4 (read answered normally): silent
+poll 5 (read SIGKILLed): silent
+poll 6 (read SIGKILLed): silent
+--- false supervision wakes raised on the open, mergeable, unchanged PR: 0
+--- final record state: {"error":null,"state":"open","mergeable":"mergeable"}
+

@@ -1,0 +1,61 @@
+################ BEFORE THE FIX  (base 1f3e769) ################
+
+=== /var/folders/z8/hqkwn1q543zgs63rhbqlpsbr0000gn/T//fm-base.2nVcK8/bin  fault=slow ===
+--- timeout mechanism: perl
+--- poll exit status: 0
+--- supervisor-visible poll output: (silent)
+--- durable wake queue: (empty)
+--- delivery record checked_at/error: {"checked_at":"2026-09-15T08:00:00Z","error":null}
+--- delivery record: byte-identical to the prior record (untouched)
+
+=== /var/folders/z8/hqkwn1q543zgs63rhbqlpsbr0000gn/T//fm-base.2nVcK8/bin  fault=sigkill ===
+--- timeout mechanism: perl
+--- poll exit status: 0
+--- supervisor-visible poll output: contributions: observation unavailable for https://github.com/o/r/pull/8
+--- durable wake queue: (empty)
+--- delivery record checked_at/error: {"checked_at":"2026-09-16T08:00:00Z","error":"forge observation unavailable or changed during read"}
+--- delivery record: rewritten by this poll
+
+=== /var/folders/z8/hqkwn1q543zgs63rhbqlpsbr0000gn/T//fm-base.2nVcK8/bin  fault=sigterm ===
+--- timeout mechanism: perl
+--- poll exit status: 0
+--- supervisor-visible poll output: contributions: observation unavailable for https://github.com/o/r/pull/8
+--- durable wake queue: (empty)
+--- delivery record checked_at/error: {"checked_at":"2026-09-16T08:00:00Z","error":"forge observation unavailable or changed during read"}
+--- delivery record: rewritten by this poll
+
+=== /var/folders/z8/hqkwn1q543zgs63rhbqlpsbr0000gn/T//fm-base.2nVcK8/bin  fault=sighup ===
+--- timeout mechanism: perl
+--- poll exit status: 0
+--- supervisor-visible poll output: contributions: observation unavailable for https://github.com/o/r/pull/8
+--- durable wake queue: (empty)
+--- delivery record checked_at/error: {"checked_at":"2026-09-16T08:00:00Z","error":"forge observation unavailable or changed during read"}
+--- delivery record: rewritten by this poll
+
+=== /var/folders/z8/hqkwn1q543zgs63rhbqlpsbr0000gn/T//fm-base.2nVcK8/bin  fault=segv ===
+--- timeout mechanism: perl
+--- poll exit status: 0
+--- supervisor-visible poll output: contributions: observation unavailable for https://github.com/o/r/pull/8
+--- durable wake queue: (empty)
+--- delivery record checked_at/error: {"checked_at":"2026-09-16T08:00:00Z","error":"forge observation unavailable or changed during read"}
+--- delivery record: rewritten by this poll
+
+=== /var/folders/z8/hqkwn1q543zgs63rhbqlpsbr0000gn/T//fm-base.2nVcK8/bin  fault=down ===
+--- timeout mechanism: perl
+--- poll exit status: 0
+--- supervisor-visible poll output: contributions: observation unavailable for https://github.com/o/r/pull/8
+--- durable wake queue: (empty)
+--- delivery record checked_at/error: {"checked_at":"2026-09-16T08:00:00Z","error":"forge observation unavailable or changed during read"}
+--- delivery record: rewritten by this poll
+
+=== /var/folders/z8/hqkwn1q543zgs63rhbqlpsbr0000gn/T//fm-base.2nVcK8/bin  fault=none  extra=https://gitlab.com/o/r/-/merge_requests/2 ===
+--- timeout mechanism: perl
+--- poll exit status: 0
+--- supervisor-visible poll output: contributions: observation unavailable for https://gitlab.com/o/r/-/merge_requests/2
+--- durable wake queue: (empty)
+--- delivery record checked_at/error: {"checked_at":"2026-09-16T08:00:00Z","error":null}
+--- delivery record: rewritten by this poll
+--- unsupported-forge record WRITTEN: {"url":"https://gitlab.com/o/r/-/merge_requests/2","checked_at":"2026-09-16T08:00:00Z","error":"forge observation unavailable or changed during read"}
+--- unsupported forge read? 0
+0
+

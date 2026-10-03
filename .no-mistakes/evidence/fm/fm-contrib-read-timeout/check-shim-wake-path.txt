@@ -1,0 +1,32 @@
+##### supervisor wake path: arm the check, then run the armed shim #####
+# arm() is the re-arm entry point fm-pr-check.sh calls on every PR
+# registration and fm-bootstrap.sh calls at session start, so this is the
+# shim the watcher executes and whose output reaches the supervisor.
+
+~~~~ BEFORE THE FIX (base 1f3e769), one wave read SIGKILLed ~~~~
+=== /var/folders/z8/hqkwn1q543zgs63rhbqlpsbr0000gn/T//fm-base.2nVcK8/bin  fault=sigkill ===
+--- armed check shim present: yes
+--- registered checks: contributions.check.sh
+--- check shim exit status: 0
+--- what the watcher surfaces to the supervisor: contributions: observation unavailable for https://github.com/o/r/pull/8
+--- record error after the check: "forge observation unavailable or changed during read"
+--- record: rewritten by this check run
+
+~~~~ AFTER THE FIX (target a9bcf7c), one wave read SIGKILLed ~~~~
+=== /Users/sgwoods/.no-mistakes/worktrees/5b8bcd03a82a/01M40Y9JRWRZ22MRPS0EMTPNJ0/bin  fault=sigkill ===
+--- armed check shim present: yes
+--- registered checks: contributions.check.sh
+--- check shim exit status: 0
+--- what the watcher surfaces to the supervisor: (nothing - supervisor is not woken)
+--- record error after the check: null
+--- record: untouched by this check run
+
+~~~~ AFTER THE FIX, forge genuinely down (HTTP 502) ~~~~
+=== /Users/sgwoods/.no-mistakes/worktrees/5b8bcd03a82a/01M40Y9JRWRZ22MRPS0EMTPNJ0/bin  fault=down ===
+--- armed check shim present: yes
+--- registered checks: contributions.check.sh
+--- check shim exit status: 0
+--- what the watcher surfaces to the supervisor: contributions: observation unavailable for https://github.com/o/r/pull/8
+--- record error after the check: "forge observation unavailable or changed during read"
+--- record: rewritten by this check run
+

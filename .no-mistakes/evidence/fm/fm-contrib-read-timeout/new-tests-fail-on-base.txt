@@ -1,0 +1,3 @@
+not ok - an unmeasured read (cut-kill) printed an unavailable wake: contributions: observation unavailable for https://github.com/o/r/pull/8
+not ok - an unsupported forge URL printed an unavailable wake: contributions: observation unavailable for https://gitlab.com/o/r/-/merge_requests/2
+not ok - 2 contribution regressions
