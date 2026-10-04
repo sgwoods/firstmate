@@ -1,0 +1,6 @@
+== root=01M41M067E11BDH4DR1CRE5ACP mode=int
+poll rc=0 stdout/stderr: <empty>
+record changed: no
+{"url":"https://github.com/kunchenguid/firstmate/pull/6563","checked_at":"2026-10-04T12:00:00Z","error":null,"state":"open","mergeable":"mergeable","head":"d85ce1a8d230"}
+wake-queue: <none>
+gh reads: 7 (reviews reads: 1)

@@ -1,0 +1,30 @@
+== root=base mode=term
+poll rc=0 stdout/stderr: contributions: observation unavailable for https://github.com/kunchenguid/firstmate/pull/6563
+record changed: yes
+{"url":"https://github.com/kunchenguid/firstmate/pull/6563","checked_at":"2026-10-04T13:25:13Z","error":"forge observation unavailable or changed during read","state":"open","mergeable":"mergeable","head":"d85ce1a8d230"}
+wake-queue: <none>
+gh reads: 7 (reviews reads: 1)
+== root=base mode=kill
+poll rc=0 stdout/stderr: contributions: observation unavailable for https://github.com/kunchenguid/firstmate/pull/6563
+record changed: yes
+{"url":"https://github.com/kunchenguid/firstmate/pull/6563","checked_at":"2026-10-04T13:25:15Z","error":"forge observation unavailable or changed during read","state":"open","mergeable":"mergeable","head":"d85ce1a8d230"}
+wake-queue: <none>
+gh reads: 7 (reviews reads: 1)
+== root=base mode=int
+poll rc=0 stdout/stderr: contributions: observation unavailable for https://github.com/kunchenguid/firstmate/pull/6563
+record changed: yes
+{"url":"https://github.com/kunchenguid/firstmate/pull/6563","checked_at":"2026-10-04T13:25:16Z","error":"forge observation unavailable or changed during read","state":"open","mergeable":"mergeable","head":"d85ce1a8d230"}
+wake-queue: <none>
+gh reads: 7 (reviews reads: 1)
+== root=base mode=hup
+poll rc=0 stdout/stderr: contributions: observation unavailable for https://github.com/kunchenguid/firstmate/pull/6563
+record changed: yes
+{"url":"https://github.com/kunchenguid/firstmate/pull/6563","checked_at":"2026-10-04T13:25:18Z","error":"forge observation unavailable or changed during read","state":"open","mergeable":"mergeable","head":"d85ce1a8d230"}
+wake-queue: <none>
+gh reads: 7 (reviews reads: 1)
+== root=base mode=segv
+poll rc=0 stdout/stderr: contributions: observation unavailable for https://github.com/kunchenguid/firstmate/pull/6563
+record changed: yes
+{"url":"https://github.com/kunchenguid/firstmate/pull/6563","checked_at":"2026-10-04T13:25:19Z","error":"forge observation unavailable or changed during read","state":"open","mergeable":"mergeable","head":"d85ce1a8d230"}
+wake-queue: <none>
+gh reads: 7 (reviews reads: 1)

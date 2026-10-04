@@ -1,0 +1,29 @@
+== root=01M41M067E11BDH4DR1CRE5ACP mode=slow
+poll rc=0 stdout/stderr: <empty>
+record changed: no
+{"url":"https://github.com/kunchenguid/firstmate/pull/6563","checked_at":"2026-10-04T12:00:00Z","error":null,"state":"open","mergeable":"mergeable","head":"d85ce1a8d230"}
+wake-queue: <none>
+gh reads: 7 (reviews reads: 1)
+### backlog now:
+# Backlog
+
+## Queued
+- [ ] live-pr - Contribution https://github.com/kunchenguid/firstmate/pull/6563 (repo: firstmate) (kind: ship)
+- [ ] lead-gl - Filed https://git.example.com/o/r/-/merge_requests/2 (repo: other) (kind: ship)
+- [ ] trail-gl - Filed https://gitlab.com/o/r/-/merge_requests/3 (repo: other) (kind: ship)
+== root=01M41M067E11BDH4DR1CRE5ACP mode=none
+poll rc=0 stdout/stderr: <empty>
+record changed: yes
+{"url":"https://github.com/kunchenguid/firstmate/pull/6563","checked_at":"2026-10-04T13:25:34Z","error":null,"state":"open","mergeable":"mergeable","head":"d85ce1a8d230"}
+wake-queue: <none>
+gh reads: 8 (reviews reads: 1)
+unsupported reads: 0
+unsupported records: 
+== root=base mode=none
+poll rc=0 stdout/stderr: /var/folders/z8/hqkwn1q543zgs63rhbqlpsbr0000gn/T//fm-lab.ch5QUq/base/bin/fm-contributions.sh: line 386: BUDGET_EXHAUSTED: unbound variable
+record changed: no
+{"url":"https://github.com/kunchenguid/firstmate/pull/6563","checked_at":"2026-10-04T12:00:00Z","error":null,"state":"open","mergeable":"mergeable","head":"d85ce1a8d230"}
+wake-queue: <none>
+gh reads: 0 (reviews reads: 0)
+unsupported reads: 0
+unsupported records: 

@@ -1,0 +1,42 @@
+== root=01M41M067E11BDH4DR1CRE5ACP mode=none
+poll rc=0 stdout/stderr: <empty>
+record changed: yes
+{"url":"https://github.com/kunchenguid/firstmate/pull/6563","checked_at":"2026-10-04T13:24:51Z","error":null,"state":"open","mergeable":"mergeable","head":"d85ce1a8d230"}
+wake-queue: <none>
+gh reads: 8 (reviews reads: 1)
+== root=01M41M067E11BDH4DR1CRE5ACP mode=term
+poll rc=0 stdout/stderr: <empty>
+record changed: no
+{"url":"https://github.com/kunchenguid/firstmate/pull/6563","checked_at":"2026-10-04T12:00:00Z","error":null,"state":"open","mergeable":"mergeable","head":"d85ce1a8d230"}
+wake-queue: <none>
+gh reads: 7 (reviews reads: 1)
+== root=01M41M067E11BDH4DR1CRE5ACP mode=kill
+poll rc=0 stdout/stderr: <empty>
+record changed: no
+{"url":"https://github.com/kunchenguid/firstmate/pull/6563","checked_at":"2026-10-04T12:00:00Z","error":null,"state":"open","mergeable":"mergeable","head":"d85ce1a8d230"}
+wake-queue: <none>
+gh reads: 7 (reviews reads: 1)
+== root=01M41M067E11BDH4DR1CRE5ACP mode=int
+poll rc=0 stdout/stderr: <empty>
+record changed: yes
+{"url":"https://github.com/kunchenguid/firstmate/pull/6563","checked_at":"2026-10-04T13:24:56Z","error":null,"state":"open","mergeable":"mergeable","head":"d85ce1a8d230"}
+wake-queue: <none>
+gh reads: 8 (reviews reads: 1)
+== root=01M41M067E11BDH4DR1CRE5ACP mode=hup
+poll rc=0 stdout/stderr: <empty>
+record changed: no
+{"url":"https://github.com/kunchenguid/firstmate/pull/6563","checked_at":"2026-10-04T12:00:00Z","error":null,"state":"open","mergeable":"mergeable","head":"d85ce1a8d230"}
+wake-queue: <none>
+gh reads: 7 (reviews reads: 1)
+== root=01M41M067E11BDH4DR1CRE5ACP mode=segv
+poll rc=0 stdout/stderr: contributions: observation unavailable for https://github.com/kunchenguid/firstmate/pull/6563
+record changed: yes
+{"url":"https://github.com/kunchenguid/firstmate/pull/6563","checked_at":"2026-10-04T13:24:59Z","error":"forge observation unavailable or changed during read","state":"open","mergeable":"mergeable","head":"d85ce1a8d230"}
+wake-queue: <none>
+gh reads: 7 (reviews reads: 1)
+== root=01M41M067E11BDH4DR1CRE5ACP mode=fail
+poll rc=0 stdout/stderr: contributions: observation unavailable for https://github.com/kunchenguid/firstmate/pull/6563
+record changed: yes
+{"url":"https://github.com/kunchenguid/firstmate/pull/6563","checked_at":"2026-10-04T13:25:00Z","error":"forge observation unavailable or changed during read","state":"open","mergeable":"mergeable","head":"d85ce1a8d230"}
+wake-queue: <none>
+gh reads: 7 (reviews reads: 1)
