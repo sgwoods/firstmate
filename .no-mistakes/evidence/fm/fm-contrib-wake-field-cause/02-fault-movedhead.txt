@@ -1,0 +1,6 @@
+### fault=movedhead  (real gh for every other read)
+$ bin/fm-contributions.sh poll
+contributions: observation unavailable for https://github.com/kunchenguid/firstmate/pull/6809 - head changed during observation
+exit=0
+record: {"checked_at":"2026-10-07T21:20:08Z","error":"forge observation unavailable: head changed during observation","head":"3d4f355c06ff23bbed5d6040bb165d842bf4a5a5"}
+

@@ -1,0 +1,10 @@
+$ FM_HOME=$LAB bin/fm-contributions.sh poll   # real gh, healthy PR
+exit=0
+--- record:
+{
+  "url": "https://github.com/kunchenguid/firstmate/pull/6809",
+  "checked_at": "2026-10-07T21:19:26Z",
+  "error": null,
+  "head": "3d4f355c06ff23bbed5d6040bb165d842bf4a5a5",
+  "state": "open"
+}

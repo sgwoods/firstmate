@@ -1,0 +1,12 @@
+### seeded healthy: {"checked_at":"2026-10-07T21:20:28Z","error":null,"head":"3d4f355c06ff23bbed5d6040bb165d842bf4a5a5"}
+### fault=slow (reviews read exceeds the 5s per-read bound) -> budget refusal, must stay unmeasured
+exit=0
+record: {"checked_at":"2026-10-07T21:20:28Z","error":null,"head":"3d4f355c06ff23bbed5d6040bb165d842bf4a5a5"}
+### episode: first failure
+contributions: observation unavailable for https://github.com/kunchenguid/firstmate/pull/6809 - reviews read exited 1 with 19s of budget left:   gh: You have exceeded a secondary rate limit. Please wait a few minutes before you try again.[0mIf you reach out to GitHub Support for help, please include th
+record: {"checked_at":"2026-10-07T21:21:36Z","error":"forge observation unavailable: reviews read exited 1 with 19s of budget left:   gh: You have exceeded a secondary rate limit. Please wait a few minutes before you try again.[0mIf you reach out to GitHub Support for help, please include th","head":"3d4f355c06ff23bbed5d6040bb165d842bf4a5a5"}
+### episode: second consecutive failure (must be silent, error kept)
+record: {"checked_at":"2026-10-07T21:22:37Z","error":"forge observation unavailable: reviews read exited 1 with 19s of budget left:   gh: You have exceeded a secondary rate limit. Please wait a few minutes before you try again.[0mIf you reach out to GitHub Support for help, please include th","head":"3d4f355c06ff23bbed5d6040bb165d842bf4a5a5"}
+### recovery with real gh (silent, error cleared)
+exit=0
+record: {"checked_at":"2026-10-07T21:23:39Z","error":null,"head":"3d4f355c06ff23bbed5d6040bb165d842bf4a5a5"}

@@ -1,0 +1,7 @@
+### fault=nullhead  (real gh for every other read)
+$ bin/fm-contributions.sh poll
+jq: error (at /var/folders/z8/hqkwn1q543zgs63rhbqlpsbr0000gn/T//fm-contributions.spOnfK/after.json:1): null (null) cannot be matched, as it is not a string
+contributions: observation unavailable for https://github.com/kunchenguid/firstmate/pull/6809 - head read named no head commit
+exit=0
+record: {"checked_at":"2026-10-07T21:20:05Z","error":"forge observation unavailable: head read named no head commit","head":"3d4f355c06ff23bbed5d6040bb165d842bf4a5a5"}
+
