@@ -1,0 +1,11 @@
+$ FM_HOME=$LAB bin/fm-contributions.sh poll   # cycle 1, real gh
+contributions: observation unavailable for https://github.com/kunchenguid/firstmate/pull/99999999 - core read exited 1 with 20s of budget left: gh: Not Found (HTTP 404)
+exit=0
+--- data/gone/contributions.json (error, checked_at, observation.state/head)
+{"url":"https://github.com/kunchenguid/firstmate/pull/99999999","error":"forge observation unavailable: core read exited 1 with 20s of budget left: gh: Not Found (HTTP 404)","checked_at":"2026-10-14T13:46:32Z","state":null,"head":null}
+--- data/live/contributions.json (error, checked_at, observation.state/head)
+{"url":"https://github.com/kunchenguid/firstmate/pull/7285","error":null,"checked_at":"2026-10-14T13:46:32Z","state":"open","head":"c9b685708c01c42a0942b9c54c7eaad47d21dade"}
+
+$ FM_HOME=$LAB bin/fm-contributions.sh poll   # cycle 2, same failure episode
+exit=0
+{"url":"https://github.com/kunchenguid/firstmate/pull/99999999","error":"forge observation unavailable: core read exited 1 with 20s of budget left: gh: Not Found (HTTP 404)","checked_at":"2026-10-14T13:46:35Z"}

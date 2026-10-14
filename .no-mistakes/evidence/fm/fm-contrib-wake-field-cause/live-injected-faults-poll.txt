@@ -1,0 +1,17 @@
+=== FAULT=headless: bin/fm-contributions.sh poll (real gh, PR #7285)
+jq: error (at /var/folders/z8/hqkwn1q543zgs63rhbqlpsbr0000gn/T//fm-contributions.EBP2Q4/after.json:1): null (null) cannot be matched, as it is not a string
+contributions: observation unavailable for https://github.com/kunchenguid/firstmate/pull/7285 - head read named no head commit
+exit=0
+{"error":"forge observation unavailable: head read named no head commit","len":61,"head":"c9b685708c01c42a0942b9c54c7eaad47d21dade"}
+=== FAULT=moved: bin/fm-contributions.sh poll (real gh, PR #7285)
+contributions: observation unavailable for https://github.com/kunchenguid/firstmate/pull/7285 - head changed during observation
+exit=0
+{"error":"forge observation unavailable: head changed during observation","len":62,"head":"c9b685708c01c42a0942b9c54c7eaad47d21dade"}
+=== FAULT=noisy: bin/fm-contributions.sh poll (real gh, PR #7285)
+contributions: observation unavailable for https://github.com/kunchenguid/firstmate/pull/7285 - reviews read exited 7 with 20s of budget left: [31mHTTP 502: upstream exploded xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+exit=0
+{"error":"forge observation unavailable: reviews read exited 7 with 20s of budget left: [31mHTTP 502: upstream exploded xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx","len":238,"head":"c9b685708c01c42a0942b9c54c7eaad47d21dade"}
+=== FAULT=ok: bin/fm-contributions.sh poll (real gh, PR #7285)
+exit=0
+{"error":null,"len":0,"head":"c9b685708c01c42a0942b9c54c7eaad47d21dade"}
+mv: /var/folders/z8/hqkwn1q543zgs63rhbqlpsbr0000gn/T//fm-lab.hc3sbP/x: No such file or directory
