@@ -1,0 +1,5 @@
+[fixed] SIGKILL poll_rc=0 stdout='' record=unchanged wake_queued=no
+[fixed] SIGTERM poll_rc=0 stdout='' record=unchanged wake_queued=no
+[fixed] SIGINT  poll_rc=0 stdout='' record=unchanged wake_queued=no
+[fixed] SIGHUP  poll_rc=0 stdout='' record=unchanged wake_queued=no
+[fixed] SIGSEGV poll_rc=0 stdout=contributions:\ observation\ unavailable\ for\ https://github.com/o/r/pull/8\ -\ reviews\ read\ exited\ 139\ with\ 19s\ of\ budget\ left:\  record={"checked_at":"2026-09-16T08:00:00Z","error":"forge observation unavailable: reviews read exited 139 with 19s of budget left: "} wake_queued=no
